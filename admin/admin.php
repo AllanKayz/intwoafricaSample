@@ -12,15 +12,15 @@
 <form class="w-75" style="margin:auto;" action="app/upload.php" method="post" enctype="multipart/form-data">
 <div class="input-group mb-3">
   <label class="input-group-text" for="inputGroupSelect01">Choose Area To Edit</label>
-  <select name="Section" class="form-select" id="inputGroupSelect01">
-    <option value="header-bg-test" selected>Banner Area Background Image</option>
-    <option value="feedback-bg-test">Contact Area Background Image</option>
-    <option value="2">Home Owners Image</option>
-    <option value="3">Educational Institutes Image</option>
-    <option value="4">Hospitality Image</option>
-    <option value="5">NGO Image</option>
-    <option value="6">Utilities Image</option>
-    <option value="7">Parastatal Agencies Image</option>
+  <select name="Section" class="form-select">
+    <option value="header-bg" selected>Banner Area Background Image</option>
+    <option value="feedback-bg">Contact Area Background Image</option>
+    <option value="home">Home Owners Image</option>
+    <option value="education">Educational Institutes Image</option>
+    <option value="hospitality">Hospitality Image</option>
+    <option value="ngo">NGO Image</option>
+    <option value="utilities">Utilities Image</option>
+    <option value="parastatal">Parastatal Agencies Image</option>
   </select>
 </div>
     Select image to upload:
