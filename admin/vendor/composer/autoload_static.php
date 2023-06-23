@@ -21,6 +21,8 @@ class ComposerStaticInitde7187593bcd74af635767ad9c72a4ae
     );
 
     public static $classMap = array (
+        'Allankayz\\Intwoafrica\\Connection' => __DIR__ . '/../..' . '/app/Connection.php',
+        'Allankayz\\Intwoafrica\\Login' => __DIR__ . '/../..' . '/app/Login.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

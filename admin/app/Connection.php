@@ -1,6 +1,6 @@
 <?php
 
-namespace AllanKayz\Intwoafrica;
+namespace Allankayz\Intwoafrica;
 
 /**
  * Represent the Connection
@@ -68,3 +68,5 @@ class Connection
 
     }
 }
+
+?>

@@ -6,5 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Allankayz\\Intwoafrica\\Connection' => $baseDir . '/app/Connection.php',
+    'Allankayz\\Intwoafrica\\Login' => $baseDir . '/app/Login.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );
